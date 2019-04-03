@@ -57,3 +57,28 @@ def add(num1, num2):
 print(add(10, 25))
 
 #If statements
+
+is_male = True
+is_tall = True
+
+if is_male:
+    print("True")
+else:
+    print("False")
+
+if is_male or is_tall:
+    print("Is tall or male")
+
+if is_male and is_tall:
+    print("Is male and tall")
+
+if is_male and not is_tall:
+    print("Is male and not tall")
+
+
+if is_tall:
+    print("Is tall")
+elif is_male:
+    print("Is male")
+elif is_tall and not is_male:
+    print("Is tall and not male")
