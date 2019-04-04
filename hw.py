@@ -69,7 +69,7 @@ else:
 if is_male or is_tall:
     print("Is tall or male")
 
-if is_male and is_tall:
+if is_male & is_tall:
     print("Is male and tall")
 
 if is_male and not is_tall:
